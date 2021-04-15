@@ -261,13 +261,8 @@
   </properties>
   <repositories>
     <repository>
-      <id>gcs-maven-central-mirror</id>
-      <!--
-        Google Mirror of Maven Central, placed first so that it's used instead of flaky Maven Central.
-        See https://storage-download.googleapis.com/maven-central/index.html
-      -->
-      <name>GCS Maven Central mirror</name>
-      <url>https://maven-central.storage-download.googleapis.com/maven2/</url>
+      <id>maven-ali</id>
+      <url>http://maven.aliyun.com/nexus/content/groups/public//</url>
       <releases>
         <enabled>true</enabled>
       </releases>
@@ -292,13 +287,8 @@
   </repositories>
   <pluginRepositories>
     <pluginRepository>
-      <id>gcs-maven-central-mirror</id>
-      <!--
-        Google Mirror of Maven Central, placed first so that it's used instead of flaky Maven Central.
-        See https://storage-download.googleapis.com/maven-central/index.html
-      -->
-      <name>GCS Maven Central mirror</name>
-      <url>https://maven-central.storage-download.googleapis.com/maven2/</url>
+      <id>maven-ali</id>
+      <url>http://maven.aliyun.com/nexus/content/groups/public//</url>
       <releases>
         <enabled>true</enabled>
       </releases>
